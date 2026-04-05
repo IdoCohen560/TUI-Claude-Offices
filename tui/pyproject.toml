@@ -1,0 +1,18 @@
+[project]
+name = "claude-office-tui"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "textual>=3.0.0",
+    "websockets>=13.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[project.scripts]
+claude-office-tui = "office:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

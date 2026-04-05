@@ -1,0 +1,41 @@
+# --- General ---
+.DS_Store
+*.swp
+*.swo
+*.log
+*~
+
+# --- IDEs ---
+.idea/
+.vscode/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+
+# Testing & Quality
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Configuration / Secrets ---
+*.env
+!.env.example
+
+# --- Local Data ---
+backend/visualizer.db
+backend/static/
